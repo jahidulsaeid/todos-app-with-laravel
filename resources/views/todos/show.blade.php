@@ -14,6 +14,7 @@
                 {{$todo->description}}
             </div>
         </div>
+    <a href="/todos/{{$todo -> id}}/edit" class="btn btn-info mt-3">Edit</a>
     </div>
 </div>
 

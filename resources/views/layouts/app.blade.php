@@ -14,20 +14,20 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container">
+        <div class="container">
             <a class="navbar-brand" href="/">LOGO</a>
-
-
-
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/todos">Todos</a>
-            </li>
-        </ul>
-      </div>
+            <ul class="navbar-nav white-text">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/todos">Todos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/new-todos">Create Todo</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <div class="container">
