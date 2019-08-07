@@ -9,6 +9,7 @@
         @yield('title')
     </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -31,6 +32,12 @@
     </nav>
 
     <div class="container">
+        @if(session()->has('success'))
+        <div class="alert alert-success">
+            {{session()->get('success')}}
+           <a href=""><i class="fa fa-times float-right mt-1" aria-hidden="true"></i></a> 
+        </div>
+        @endif
         @yield('content')
     </div>
 
